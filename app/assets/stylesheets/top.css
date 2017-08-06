@@ -1,0 +1,85 @@
+header {
+  width: 100%;
+  background-color: white;
+  height: 54px; }
+
+.navbar-default {
+  border: 0; }
+
+.navbar {
+  background-color: transparent;
+  color: white;
+  margin-bottom: 0px; }
+
+.navbar-default .navbar-brand {
+  color: #ccc; }
+  .navbar-default .navbar-brand:hover {
+    color: white; }
+.navbar-default .navbar-nav > li > a {
+  color: #ccc; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #4682B4; }
+.navbar-default .navbar-nav > .open > a {
+  background-color: transparent;
+  color: #4682B4; }
+  .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #4682B4; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ccc;
+    text-align: left; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: white; }
+
+  .navbar-default .navbar-toggle {
+    background-color: transparent; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: transparent; } }
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.main-header img {
+  display: block;
+  margin: 0 auto;
+  align: right;
+  width: 10%;
+  padding-top: 15%; }
+
+.about {
+  background-color: #ffffe0;
+  text-valign: middle;
+  color: #333;
+  padding: 20px 50px; }
+
+.about-image {
+  background-color: #ffffe0;
+  padding: 20px 50px;
+  max-width: 25%;
+  height: auto; }
+
+footer {
+  width: 100%;
+  background-color: #ffffe0;
+  padding: 20px 0 10px 0;
+  color: #483D8B;
+  text-align: right;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  background-color: #ffffe0;
+  text-align: left; }
+
+/*# sourceMappingURL=top.css.map */
